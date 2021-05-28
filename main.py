@@ -184,7 +184,7 @@ def royal_guard_6():
 
 
 def orc_lord():
-    # missing guess counter
+    # guess counter = "guesses"
     guesses = 0
     user_choice_lord = input(f"""The Orc lord accepts your duel request. He is known as the most powerful being in 
     the the terminal word. May you be victorious {user_name} 
