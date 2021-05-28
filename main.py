@@ -181,6 +181,7 @@ def orc_lord():
     else:
         return print(f"Congratulations {user_name}!You have completed the game. Thank you for playing <3")
 #functions end
+
 #story start
 user_name = (input("""Hello user, Welcome to Command Line Chronicles, What is your name? """))
 
