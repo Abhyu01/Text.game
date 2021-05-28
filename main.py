@@ -92,7 +92,7 @@ def mini_orc():
 
 
 def royal_guard_1():
-    guess_count1 = 0
+    guess_count1 = 1
     user_choice_guard1 = input(f"""You encountered the first guard, good luck fighting him!
     Im tall when im young, and im short when im old. What am I? 
      """)
@@ -108,7 +108,7 @@ def royal_guard_1():
 
 
 def royal_guard_2():
-    guess_count2 = 0
+    guess_count2 = 1
     user_choice_guard2 = input(f"""Now you have to kill the 2nd orc guardian. Good luck {user_name}!
     I’m where yesterday follows today and tomorrow is in the middle. What am I?  
      """)
@@ -123,7 +123,7 @@ def royal_guard_2():
 
 
 def royal_guard_3():
-    guess_count3 = 0
+    guess_count3 = 1
     user_choice_guard3 = input(f"""The third guardian orc is coming running towards you! good luck fighting this orc!
     I’m a god, a planet, and I measure heat. What am I? 
     """)
@@ -138,7 +138,7 @@ def royal_guard_3():
 
 
 def royal_guard_4():
-    guess_count4 = 0
+    guess_count4 = 1
     user_choice_guard4 = input(f"""The fourth guardian orc is ready to fight you with all his strength. Good luck! 
     The more you take, the more you leave behind. What am I? 
     """)
@@ -154,7 +154,7 @@ def royal_guard_4():
 
 
 def royal_guard_5():
-    guess_count5 = 0
+    guess_count5 = 1
     user_choice_guard5 = input(f"""Prepare to take on the 5th royal guard! I am the beginning of everything, the end 
     of everywhere. I’m the beginning of eternity, the end of time and space. What am I? """)
     while user_choice_guard5 not in ["e", "letter e", "the letter e"]:
@@ -168,7 +168,7 @@ def royal_guard_5():
 
 
 def royal_guard_6():
-    guess_count6 = 0
+    guess_count6 = 1
     user_choice_guard6 = input(
         f"""One last guard left, then you can reach the orc lord. I pray for your victory {user_name}! 
     If you have me, you want to share me. If you share me, you haven’t got me. What am I? 
@@ -184,6 +184,7 @@ def royal_guard_6():
 
 
 def orc_lord():
+    # missing guess counter
     guesses = 0
     user_choice_lord = input(f"""The Orc lord accepts your duel request. He is known as the most powerful being in 
     the the terminal word. May you be victorious {user_name} 
